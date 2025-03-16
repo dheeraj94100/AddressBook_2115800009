@@ -84,7 +84,8 @@ namespace RepositoryLayer.Service
             await _context.SaveChangesAsync();
 
             return _mapper.Map<ContactRequestModel>(contact);
-            // Convert ContactEntity → ContactRequestModel
+            // Convert ContactEntity → ContactRequestModel\
+            //CRUD operations Done
         }
     }
 }
